@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register as a reviewer on LuminaReads and start sharing book reviews.">
+  <title>Register - LuminaReads</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ============================================================
+       HEADER & NAVIGATION
+       ============================================================ -->
+  <header>
+    <div class="header-container">
+      <div class="logo">Lumina<span>Reads</span></div>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="books.html">Browse Books</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="profile.html" class="active">Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       PROFILE SECTION
+       ============================================================ -->
+  <section class="section register-section">
+    <div class="container register-container">
+      <div class="register-card">
+        <div class="register-panel register-panel--brand">
+          <div class="register-brand">
+            <div style="margin-bottom: var(--spacing-md);"><img src="photo/book-svgrepo-com.svg" height="76" width="76" alt="LuminaReads Logo"></div>
+            <h2 style="color: #d4af37;">Welcome to LuminaReads</h2>
+            <p>Member reviews, book suggestions, and literary stories all in one beautifully designed space.</p>
+            <ul class="register-features" style="margin-bottom: var(--spacing-xl);">
+              <li>Discover curated reading lists</li>
+              <li>Publish trusted book reviews</li>
+              <li>Connect with fellow readers</li>
+            </ul>
+            <div style="margin-top: var(--spacing-xl); display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-md); border-top: 1px solid rgba(255,255,255,0.15); padding-top: var(--spacing-lg);">
+              <div style="background: rgba(255,255,255,0.05); padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.08);">
+                <div style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 700; color: var(--accent); margin-bottom: 2px;">4k+</div>
+                <div style="font-size: 0.8rem; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Active Readers</div>
+              </div>
+              <div style="background: rgba(255,255,255,0.05); padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.08);">
+                <div style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 700; color: var(--accent); margin-bottom: 2px;">30k+</div>
+                <div style="font-size: 0.8rem; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Reviews Shared</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="register-panel register-panel--form">
+          <div class="register-form">
+            <div class="section-title register-title">
+              <h1>Create your account</h1>
+              <p>Start sharing reviews and tracking your reading journey with LuminaReads.</p>
+            </div>
+            <form>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" id="username" name="username" placeholder="Choose a username" required>
+                </div>
+                <div class="form-group">
+                  <label for="favorite-genre">Favorite Genre</label>
+                  <select id="favorite-genre" name="favorite-genre">
+                    <option value="fiction">Fiction</option>
+                    <option value="nonfiction">Nonfiction</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="scifi">Science Fiction</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="biography">Biography</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" placeholder="Create a password" required>
+                </div>
+                <div class="form-group">
+                  <label for="confirm-password">Confirm Password</label>
+                  <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="bio">Reviewer Bio</label>
+                <textarea id="bio" name="bio" placeholder="Tell us about your reading style"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+            <div class="register-cta">
+              <p>Already have an account? <a href="index.html">Sign in</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>About LuminaReads</h4>
+        <p>A premier platform for academic and recreational book reviews, connecting readers and celebrating literature in all its forms.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com" title="Facebook">f</a>
+          <a href="https://twitter.com" title="Twitter">𝕏</a>
+          <a href="https://www.instagram.com" title="Instagram">📷</a>
+          <a href="https://www.linkedin.com" title="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="books.html">Browse Books</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="profile.html">Register</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="about.html#guidelines">Community Guidelines</a></li>
+          <li><a href="about.html#terms">Terms of Service</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Get in Touch</h4>
+        <p>Email: <a href="mailto:hello@luminareads.edu">hello@luminareads.edu</a></p>
+        <p>Located at: Uwa Wellassa University<br>Silvertip, Room 15</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 LuminaReads. All rights reserved. | Crafted for literature lovers everywhere.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
