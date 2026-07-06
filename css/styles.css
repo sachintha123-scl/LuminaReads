@@ -246,6 +246,10 @@ nav a.active {
   color: var(--secondary);
 }
 
+.mobile-menu-checkbox {
+  display: none;
+}
+
 .mobile-menu-toggle {
   display: none;
   background: none;
@@ -254,6 +258,14 @@ nav a.active {
   color: var(--primary);
   cursor: pointer;
   padding: 0 var(--spacing-xs);
+}
+
+.mobile-menu-toggle::before {
+  content: '☰';
+}
+
+#mobile-menu-toggle:checked + .mobile-menu-toggle::before {
+  content: '✕';
 }
 
 /* ============================================================
@@ -703,6 +715,12 @@ textarea {
 
 .grid-3 {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-items: start;
+}
+
+.grid-3 > .book-card {
+  width: min(100%, 520px);
+  max-width: 320px;
 }
 
 .grid-4 {
@@ -1109,7 +1127,7 @@ textarea {
     flex-basis: 100%;
   }
 
-  nav.active {
+  #mobile-menu-toggle:checked ~ nav {
     display: block;
   }
 

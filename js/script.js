@@ -6,24 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
   const nav = document.querySelector('header nav');
 
-  if (mobileMenuToggle && nav) {
-    mobileMenuToggle.addEventListener('click', () => {
-      nav.classList.toggle('active');
-      const isExpanded = nav.classList.contains('active');
-      mobileMenuToggle.setAttribute('aria-expanded', isExpanded);
-      mobileMenuToggle.textContent = isExpanded ? '✕' : '☰';
-    });
-
-    // Close menu when a nav link is clicked
-    nav.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        nav.classList.remove('active');
-        mobileMenuToggle.setAttribute('aria-expanded', 'false');
-        mobileMenuToggle.textContent = '☰';
-      });
-    });
-  }
-
   // ============================================================
   //  2. SIDEBAR FILTER TOGGLE (mobile collapsible)
   // ============================================================
