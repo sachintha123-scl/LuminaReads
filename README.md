@@ -2,8 +2,7 @@
 
 **LuminaReads** is a simple, static web application designed as a my university project 
 
-🔗 **Live Demo:** [ [https://sachintha123-scl.github.io/LuminaReads-/](https://sachintha123-scl.github.io/LuminaReads/](https://lumina-reads-seven.vercel.app/))
-
+ 🔗 **Live Demo:** https://lumina-reads-seven.vercel.app/
 ---
 
 ## ✨ Features
