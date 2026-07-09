@@ -7,11 +7,6 @@
   <title>Contact Us - LuminaReads</title>
   <link rel="stylesheet" href="css/styles.css">
   <style>
-    /* ============================================================
-       CONTACT PAGE – SPECIFIC STYLES
-       ============================================================ */
-
-    /* ---- Hero banner ----------------------------------------- */
     .contact-hero {
       background: linear-gradient(135deg, rgba(44,95,79,0.85) 0%, rgba(26,26,26,0.92) 100%),
                   url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1600&q=80') center/cover no-repeat;
@@ -22,7 +17,7 @@
     .contact-hero h1 { color: var(--accent); font-size: 2.8rem; margin-bottom: 0.5rem; }
     .contact-hero p  { color: rgba(255,255,255,0.85); font-size: 1.1rem; max-width: 560px; margin: 0 auto; }
 
-    /* ---- Main two-column wrapper ----------------------------- */
+    
     .contact-wrapper {
       display: grid;
       grid-template-columns: 1fr 1.15fr;
@@ -39,7 +34,7 @@
       padding: 0 var(--spacing-lg);
     }
 
-    /* ---- LEFT PANEL: form ------------------------------------ */
+    
     .contact-form-panel {
       background: #fff;
       padding: 48px 44px;
@@ -107,7 +102,7 @@
       box-shadow: 0 6px 20px rgba(44,95,79,0.28);
     }
 
-    /* ---- RIGHT PANEL: info ----------------------------------- */
+    
     .contact-info-panel {
       background: var(--background);
       padding: 48px 44px 48px;
@@ -138,7 +133,7 @@
       margin-bottom: 32px;
     }
 
-    /* 2×2 info grid */
+    
     .contact-info-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -180,7 +175,7 @@
       line-height: 1.5;
     }
 
-    /* Social icons row */
+    
     .contact-social-row {
       margin-top: 16px;
       margin-bottom: 32px;
@@ -232,13 +227,13 @@
     .social-ig   { background: linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); }
     .social-yt   { background: #ff0000; }
 
-    /* ---- FAQ section ----------------------------------------- */
+    
     .faq-section {
       background-color: var(--hover-bg);
       padding: var(--spacing-xxl) var(--spacing-lg);
     }
 
-    /* ---- Responsive ------------------------------------------ */
+    
     @media (max-width: 840px) {
       .contact-wrapper {
         grid-template-columns: 1fr;
@@ -292,9 +287,7 @@
   </style>
 </head>
 <body>
-  <!-- ============================================================
-       HEADER & NAVIGATION
-       ============================================================ -->
+  
   <header>
     <div class="header-container">
       <div class="logo">Lumina<span>Reads</span></div>
@@ -312,21 +305,17 @@
     </div>
   </header>
 
-  <!-- ============================================================
-       CONTACT HERO BANNER
-       ============================================================ -->
+  
   <section class="contact-hero">
     <h1>Get in Touch</h1>
     <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
   </section>
 
-  <!-- ============================================================
-       MAIN CONTACT SECTION – Two-column layout
-       ============================================================ -->
+  
   <div class="contact-page-shell">
     <div class="contact-wrapper">
 
-      <!-- ── LEFT: Contact Form ──────────────────────────────── -->
+      
       <div class="contact-form-panel">
         <form id="contact-form" novalidate>
           <div class="form-group">
@@ -353,7 +342,7 @@
         </form>
       </div>
 
-      <!-- ── RIGHT: Contact Info + Map ─────────────────────── -->
+      
       <div class="contact-info-panel">
         <p class="contact-eyebrow">Contact Us</p>
         <h2>Get In Touch</h2>
@@ -364,7 +353,7 @@
           sapien condimentum.
         </p>
 
-        <!-- 2×2 Info Grid -->
+        
         <div class="contact-info-grid">
           <div class="contact-info-item">
             <div class="contact-info-icon"><img src="photo/phone-call-svgrepo-com.svg" alt="icon" class="emoji-icon" height="30" width="30"/></div>
@@ -399,29 +388,29 @@
           </div>
         </div>
 
-        <!-- Social Media -->
+        
         <div class="contact-social-row">
           <h5>Follow Us On</h5>
           <div class="contact-social-icons">
-            <!-- Facebook -->
+            
             <a href="#" class="social-fb" title="Facebook" id="social-facebook">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#fff">
                 <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987H7.898v-2.89h2.54V9.845c0-2.507 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
               </svg>
             </a>
-            <!-- Twitter / X -->
+            
             <a href="#" class="social-tw" title="Twitter / X" id="social-twitter">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#fff">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
               </svg>
             </a>
-            <!-- Instagram -->
+            
             <a href="#" class="social-ig" title="Instagram" id="social-instagram">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#fff">
                 <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
               </svg>
             </a>
-            <!-- YouTube -->
+            
             <a href="#" class="social-yt" title="YouTube" id="social-youtube">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#fff">
                 <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
@@ -431,22 +420,20 @@
         </div>
         <div class="logo bottom-logo">Lumina<span>Reads</span></div>
       </div>
-      <!-- end right panel -->
+      
 
     </div>
   </div>
-  <!-- end contact section -->
+  
 
-  <!-- ============================================================
-       FAQ SECTION
-       ============================================================ -->
+  
   <section class="faq-section" id="faq" aria-label="Frequently Asked Questions">
     <div class="container">
       <h2 style="text-align: center; margin-bottom: var(--spacing-xl);">Frequently Asked Questions</h2>
 
       <div style="max-width: 800px; margin: 0 auto; display: grid; gap: var(--spacing-lg);">
 
-        <!-- FAQ Item 1 -->
+        
         <details class="card" style="cursor: pointer;">
           <summary style="font-weight: 600; color: var(--primary); padding: var(--spacing-md); user-select: none;">
             How do I create an account on LuminaReads?
@@ -458,7 +445,7 @@
           </p>
         </details>
 
-        <!-- FAQ Item 2 -->
+        
         <details class="card" style="cursor: pointer;">
           <summary style="font-weight: 600; color: var(--primary); padding: var(--spacing-md); user-select: none;">
             Can I edit or delete my reviews after posting?
@@ -470,7 +457,7 @@
           </p>
         </details>
 
-        <!-- FAQ Item 3 -->
+        
         <details class="card" style="cursor: pointer;">
           <summary style="font-weight: 600; color: var(--primary); padding: var(--spacing-md); user-select: none;">
             How are books organized on the browse page?
@@ -482,7 +469,7 @@
           </p>
         </details>
 
-        <!-- FAQ Item 4 -->
+        
         <details class="card" style="cursor: pointer;">
           <summary style="font-weight: 600; color: var(--primary); padding: var(--spacing-md); user-select: none;">
             What should I include in my book review?
@@ -494,7 +481,7 @@
           </p>
         </details>
 
-        <!-- FAQ Item 5 -->
+        
         <details class="card" style="cursor: pointer;">
           <summary style="font-weight: 600; color: var(--primary); padding: var(--spacing-md); user-select: none;">
             Can I follow other reviewers?
@@ -506,7 +493,7 @@
           </p>
         </details>
 
-        <!-- FAQ Item 6 -->
+        
         <details class="card" style="cursor: pointer;">
           <summary style="font-weight: 600; color: var(--primary); padding: var(--spacing-md); user-select: none;">
             What is the community moderation policy?
@@ -518,14 +505,14 @@
           </p>
         </details>
 
-        <!-- FAQ Item 7 -->
+        
         <details class="card" style="cursor: pointer;">
           <summary style="font-weight: 600; color: var(--primary); padding: var(--spacing-md); user-select: none;">
             Is LuminaReads available on mobile?
           </summary>
           <p style="padding: var(--spacing-md) var(--spacing-md) 0 var(--spacing-md); color: var(--text-secondary); margin: 0;">
             Yes! LuminaReads is fully responsive and works beautifully on smartphones, tablets, and desktop computers.
-            You can browse books, write reviews, and manage your profile on any device. No app installation required—
+            You can browse books, write reviews, and manage your profile on any device. No app installation requiredÃ¢â‚¬â€
             just visit our website in your mobile browser.
           </p>
         </details>
@@ -534,9 +521,7 @@
     </div>
   </section>
 
-  <!-- ============================================================
-       FOOTER
-       ============================================================ -->
+  
   <footer>
     <div class="footer-container">
       <div class="footer-section">
@@ -544,8 +529,8 @@
         <p>A premier platform for academic and recreational book reviews, connecting readers and celebrating literature in all its forms.</p>
         <div class="social-links">
           <a href="https://www.facebook.com" title="Facebook">f</a>
-          <a href="https://www.twitter.com" title="Twitter">𝕏</a>
-          <a href="https://www.instagram.com" title="Instagram">📷</a>
+          <a href="https://www.twitter.com" title="Twitter">Ã°Ââ€¢Â</a>
+          <a href="https://www.instagram.com" title="Instagram">Ã°Å¸â€œÂ·</a>
           <a href="https://www.linkedin.com" title="LinkedIn">in</a>
         </div>
       </div>
