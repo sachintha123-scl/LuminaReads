@@ -619,14 +619,7 @@ textarea {
   color: #d4af37;
 }
 
-.register-features li::before {
-  content: "âœ“";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: var(--accent);
-  font-weight: bold;
-}
+
 
 .register-panel--form {
   background: var(--surface);
