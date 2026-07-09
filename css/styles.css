@@ -250,11 +250,11 @@ nav a.active {
 }
 
 .mobile-menu-toggle::before {
-  content: 'â˜°';
+  content: '☰';
 }
 
 #mobile-menu-toggle:checked + .mobile-menu-toggle::before {
-  content: 'âœ•';
+  content: '✕';
 }
 
 
@@ -617,7 +617,7 @@ textarea {
 }
 
 .register-features li::before {
-  content: "âœ¦";
+  content: "✓";
   position: absolute;
   left: 0;
   top: 0;
@@ -1149,7 +1149,7 @@ textarea {
   }
 
   .sidebar-toggle-btn::after {
-    content: 'â–¼';
+    content: '▼';
     font-size: 0.7rem;
     transition: transform 0.3s ease;
   }
