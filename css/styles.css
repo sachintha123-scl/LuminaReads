@@ -617,7 +617,7 @@ textarea {
 }
 
 .register-features li::before {
-  content: "✓";
+  content: "âœ“";
   position: absolute;
   left: 0;
   top: 0;
@@ -1149,7 +1149,7 @@ textarea {
   }
 
   .sidebar-toggle-btn::after {
-    content: '▼';
+    content: 'â–¼';
     font-size: 0.7rem;
     transition: transform 0.3s ease;
   }
