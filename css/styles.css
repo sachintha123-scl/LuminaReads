@@ -94,8 +94,16 @@ header {
 
 .header-container .logo {
   color: var(--primary);
+  gap: 3px;
 }
 
+.get-in-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  width: 100%;
+}
 nav ul li a {
   color: var(--text-primary);
 }
@@ -191,6 +199,8 @@ header {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 700;
@@ -198,7 +208,20 @@ header {
   letter-spacing: -1px;
 }
 
-.logo span {
+.logo .brand-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  text-align: center;
+}
+
+.logo > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.logo > span span {
   color: var(--accent);
 }
 
