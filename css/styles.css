@@ -1168,7 +1168,7 @@ textarea {
   }
 
   .sidebar-toggle-btn::after {
-    content: 'â–¼';
+    content: '☰';
     font-size: 0.7rem;
     transition: transform 0.3s ease;
   }
