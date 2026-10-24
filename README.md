@@ -1,11 +1,11 @@
-# 📚 LuminaReads - Book Reviews & Literary Insights
+#  LuminaReads - Book Reviews & Literary Insights
 
 **LuminaReads** is a simple, static web application designed as a my university project 
 
  🔗 **Live Demo:** https://lumina-reads-seven.vercel.app/
 ---
 
-## ✨ Features
+##  Features
 
 - **Trending & Recent Reviews:** Discover the most celebrated and highly-rated book reviews of the month.
 - **Browse Catalog:** Easily navigate through a growing collection of literature and detailed review pages.
